@@ -1,0 +1,493 @@
+{
+  "mode": "fixture",
+  "generated_at": "2026-11-17T06:55:51Z",
+  "run_date": "2026-11-17",
+  "run_number": null,
+  "commit": null,
+  "login": "TahmidShafi",
+  "season": "hemonto",
+  "extract": {
+    "days": 371,
+    "public_repos": null
+  },
+  "claims": {
+    "curbstone": {
+      "state": "unverified",
+      "sha": "",
+      "missing": []
+    },
+    "bari-link": {
+      "state": "unverified",
+      "sha": "",
+      "missing": []
+    },
+    "dghs-cleanpulse": {
+      "state": "unverified",
+      "sha": "",
+      "missing": []
+    },
+    "protomacro": {
+      "state": "unverified",
+      "sha": "",
+      "missing": []
+    }
+  },
+  "checks": [
+    {
+      "name": "calendar.non_empty",
+      "ok": true,
+      "detail": "371 days",
+      "severity": "hard"
+    },
+    {
+      "name": "calendar.counts_non_negative_int",
+      "ok": true,
+      "detail": "0 bad rows",
+      "severity": "hard"
+    },
+    {
+      "name": "calendar.contiguous_ascending",
+      "ok": true,
+      "detail": "0 gaps or reversals",
+      "severity": "hard"
+    },
+    {
+      "name": "calendar.fresh",
+      "ok": true,
+      "detail": "latest day lags run date by 0d",
+      "severity": "hard"
+    },
+    {
+      "name": "card.curbstone.viz_type",
+      "ok": true,
+      "detail": "ci",
+      "severity": "hard"
+    },
+    {
+      "name": "card.curbstone.line_lengths",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.curbstone.no_orphan_numbers",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.bari-link.viz_type",
+      "ok": true,
+      "detail": "seeds",
+      "severity": "hard"
+    },
+    {
+      "name": "card.bari-link.line_lengths",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.bari-link.no_orphan_numbers",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.dghs-cleanpulse.viz_type",
+      "ok": true,
+      "detail": "gate",
+      "severity": "hard"
+    },
+    {
+      "name": "card.dghs-cleanpulse.line_lengths",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.dghs-cleanpulse.no_orphan_numbers",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.ProtoMacro.viz_type",
+      "ok": true,
+      "detail": "stack",
+      "severity": "hard"
+    },
+    {
+      "name": "card.ProtoMacro.line_lengths",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "card.ProtoMacro.no_orphan_numbers",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "claims.curbstone",
+      "ok": true,
+      "detail": "unverified",
+      "severity": "soft"
+    },
+    {
+      "name": "claims.bari-link",
+      "ok": true,
+      "detail": "unverified",
+      "severity": "soft"
+    },
+    {
+      "name": "claims.dghs-cleanpulse",
+      "ok": true,
+      "detail": "unverified",
+      "severity": "soft"
+    },
+    {
+      "name": "claims.protomacro",
+      "ok": true,
+      "detail": "unverified",
+      "severity": "soft"
+    },
+    {
+      "name": "svg.hero-dark.svg.size",
+      "ok": true,
+      "detail": "17719 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-dark.svg.size",
+      "ok": true,
+      "detail": "10309 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-dark.svg.size",
+      "ok": true,
+      "detail": "5182 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-dark.svg.size",
+      "ok": true,
+      "detail": "4935 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-dark.svg.size",
+      "ok": true,
+      "detail": "6783 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-dark.svg.size",
+      "ok": true,
+      "detail": "4597 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-light.svg.size",
+      "ok": true,
+      "detail": "17719 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.hero-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-light.svg.size",
+      "ok": true,
+      "detail": "10309 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.gauge-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-light.svg.size",
+      "ok": true,
+      "detail": "5182 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-curbstone-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-light.svg.size",
+      "ok": true,
+      "detail": "4935 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-bari-link-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-light.svg.size",
+      "ok": true,
+      "detail": "6783 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-dghs-cleanpulse-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-light.svg.size",
+      "ok": true,
+      "detail": "4597 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.card-protomacro-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-dark.svg.size",
+      "ok": true,
+      "detail": "2996 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-dark.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-dark.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-dark.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-light.svg.size",
+      "ok": true,
+      "detail": "2996 bytes",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-light.svg.well_formed",
+      "ok": true,
+      "detail": "ok",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-light.svg.no_external_refs",
+      "ok": true,
+      "detail": "GitHub blocks external resources inside SVG images",
+      "severity": "hard"
+    },
+    {
+      "name": "svg.manifest-light.svg.no_nan",
+      "ok": true,
+      "detail": "NaN coordinates break rendering",
+      "severity": "hard"
+    }
+  ]
+}

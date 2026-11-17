@@ -1,0 +1,30 @@
+{
+  "repo": "TahmidShafi/ProtoMacro",
+  "title": "ProtoMacro",
+  "order": 4,
+  "status": "real sources · MIT",
+  "summary": [
+    "Local-first nutrition PWA backed by a sourced Bangladeshi",
+    "food database, built by a tested DuckDB pipeline."
+  ],
+  "links": {
+    "repo": "https://github.com/TahmidShafi/ProtoMacro",
+    "demo": "https://tahmidshafi.github.io/ProtoMacro/"
+  },
+  "stack": "DuckDB · Vite PWA · Vitest",
+  "viz": {
+    "type": "stack",
+    "segments": [
+      {"label": "FCTB 2013", "value": 381},
+      {"label": "curated", "value": 117},
+      {"label": "USDA FDC", "value": 69}
+    ]
+  },
+  "headline": "567 foods, with provenance recorded on every row",
+  "subline": "104 Vitest + 8 pytest tests; hard errors fail the build",
+  "limitation": [
+    "283 of 381 FCTB values are borrowed from secondary tables,",
+    "and FCTB dates from 2013."
+  ],
+  "claims": ["567", "381", "117", "69", "104", "283", "2013"]
+}

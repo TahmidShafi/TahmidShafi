@@ -1,0 +1,30 @@
+{
+  "repo": "TahmidShafi/curbstone",
+  "title": "curbstone",
+  "order": 1,
+  "status": "synthetic data · MIT",
+  "summary": [
+    "Flags likely fabricated survey interviews by comparing each",
+    "enumerator with peers who worked the same villages."
+  ],
+  "links": {
+    "repo": "https://github.com/TahmidShafi/curbstone",
+    "demo": "https://tahmidshafi.github.io/curbstone/"
+  },
+  "stack": "Python · DuckDB-Wasm · Parquet",
+  "viz": {
+    "type": "ci",
+    "label": "precision@4 gain over rule counts",
+    "estimate": 0.131,
+    "low": 0.119,
+    "high": 0.142,
+    "axis_max": 0.2
+  },
+  "headline": "+0.131 precision@4 over rule counts",
+  "subline": "95% CI +0.119 to +0.142, ranked against a rule-count baseline",
+  "limitation": [
+    "Synthetic data, no real-world validation yet. A risk ranking,",
+    "not calibrated flagging."
+  ],
+  "claims": ["0.131", "0.119", "0.142", "95%"]
+}

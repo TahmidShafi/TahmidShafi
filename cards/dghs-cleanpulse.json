@@ -1,0 +1,28 @@
+{
+  "repo": "TahmidShafi/dghs-cleanpulse",
+  "title": "dghs-cleanpulse",
+  "order": 3,
+  "status": "real + simulated · in audit",
+  "summary": [
+    "Ingests DGHS dengue surveillance tables and joins them with",
+    "monsoon weather across 64 districts."
+  ],
+  "links": {
+    "repo": "https://github.com/TahmidShafi/dghs-cleanpulse",
+    "demo": "https://dghs-cleanpulse.vercel.app"
+  },
+  "stack": "Pandera · DuckDB · FastAPI",
+  "viz": {
+    "type": "gate",
+    "gate_label": "Pandera gate",
+    "pass_label": "silver",
+    "fail_label": "audit table"
+  },
+  "headline": "No silent drops: each anomaly is logged and repaired",
+  "subline": "11,520 district-day weather rows, 319 lag-correlation rows",
+  "limitation": [
+    "The 180-day dengue series is simulated (seeded backfill),",
+    "not observed surveillance data."
+  ],
+  "claims": ["11,520", "319", "180", "64"]
+}

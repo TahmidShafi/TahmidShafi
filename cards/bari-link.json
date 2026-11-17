@@ -1,0 +1,32 @@
+{
+  "repo": "TahmidShafi/bari-link",
+  "title": "bari-link",
+  "order": 2,
+  "status": "synthetic data · MIT",
+  "summary": [
+    "Kinship-aware deduplication for NGO beneficiary registries",
+    "that share no ID: romanised Bangla names, shared phones."
+  ],
+  "links": {
+    "repo": "https://github.com/TahmidShafi/bari-link",
+    "demo": "https://tahmidshafi.github.io/bari-link/"
+  },
+  "stack": "Python · Splink · DuckDB-Wasm",
+  "viz": {
+    "type": "seeds",
+    "won": 5,
+    "total": 5,
+    "bars": [
+      {"label": "Reference Splink", "value": 888.2},
+      {"label": "Pipeline K", "value": 812.2}
+    ],
+    "unit": "operational cost (lower is better)"
+  },
+  "headline": "-8.56% operational cost vs reference Splink",
+  "subline": "won 5/5 holdout seeds, one-sided sign test p = 0.031",
+  "limitation": [
+    "Synthetic registries only. Recall 0.53, so about half of true",
+    "duplicate pairs stay unlinked."
+  ],
+  "claims": ["8.56", "5/5", "0.031", "888.2", "812.2", "0.53"]
+}
