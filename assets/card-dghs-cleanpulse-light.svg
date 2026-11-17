@@ -50,5 +50,5 @@
     <text x="36" y="269.5" class="mono" font-size="10" fill="#9a6700"
       letter-spacing="1.2">DOESN'T SHOW</text>
     <text x="36" y="288" class="sans muted" font-size="12.5">The 180-day dengue series is simulated (seeded backfill),</text><text x="36" y="305" class="sans muted" font-size="12.5">not observed surveillance data.</text>
-    <circle cx="26" cy="328" r="4" fill="#9a6700"/><text x="36" y="332" class="mono muted" font-size="11">unverified · offline preview</text><text x="458" y="332" text-anchor="end" class="mono muted" font-size="11">Pandera · DuckDB · FastAPI</text>
+    <circle cx="26" cy="328" r="4" fill="#cf222e"/><text x="36" y="332" class="mono muted" font-size="11">stale claim · README @ be055e4</text><text x="458" y="332" text-anchor="end" class="mono muted" font-size="11">Pandera · DuckDB · FastAPI</text>
     </svg>

@@ -1,34 +1,38 @@
 {
-  "mode": "fixture",
-  "generated_at": "2026-11-17T06:55:51Z",
+  "mode": "live",
+  "generated_at": "2026-11-17T07:21:53Z",
   "run_date": "2026-11-17",
-  "run_number": null,
-  "commit": null,
+  "run_number": "1",
+  "commit": "c0d4de9022069d7e28fa9569c8619dcb888efb6d",
   "login": "TahmidShafi",
   "season": "hemonto",
   "extract": {
-    "days": 371,
-    "public_repos": null
+    "days": 367,
+    "public_repos": 20
   },
   "claims": {
     "curbstone": {
-      "state": "unverified",
-      "sha": "",
+      "state": "verified",
+      "sha": "363c7b4bcfd0c626cecd309a13c370f88aef9d52",
       "missing": []
     },
     "bari-link": {
-      "state": "unverified",
-      "sha": "",
+      "state": "verified",
+      "sha": "c5181353cd54cbca11fdd8f966071ed0e51d0371",
       "missing": []
     },
     "dghs-cleanpulse": {
-      "state": "unverified",
-      "sha": "",
-      "missing": []
+      "state": "stale",
+      "sha": "be055e476b9392f70e97c0b79e0976381e455cf4",
+      "missing": [
+        "11,520",
+        "319",
+        "180"
+      ]
     },
     "protomacro": {
-      "state": "unverified",
-      "sha": "",
+      "state": "verified",
+      "sha": "e63515361955de1d1aba2e546bf4600f8dcfd04f",
       "missing": []
     }
   },
@@ -36,7 +40,7 @@
     {
       "name": "calendar.non_empty",
       "ok": true,
-      "detail": "371 days",
+      "detail": "367 days",
       "severity": "hard"
     },
     {
@@ -132,25 +136,25 @@
     {
       "name": "claims.curbstone",
       "ok": true,
-      "detail": "unverified",
+      "detail": "verified",
       "severity": "soft"
     },
     {
       "name": "claims.bari-link",
       "ok": true,
-      "detail": "unverified",
+      "detail": "verified",
       "severity": "soft"
     },
     {
       "name": "claims.dghs-cleanpulse",
-      "ok": true,
-      "detail": "unverified",
+      "ok": false,
+      "detail": "missing ['11,520', '319', '180']",
       "severity": "soft"
     },
     {
       "name": "claims.protomacro",
       "ok": true,
-      "detail": "unverified",
+      "detail": "verified",
       "severity": "soft"
     },
     {
@@ -180,7 +184,7 @@
     {
       "name": "svg.gauge-dark.svg.size",
       "ok": true,
-      "detail": "10309 bytes",
+      "detail": "10178 bytes",
       "severity": "hard"
     },
     {
@@ -204,7 +208,7 @@
     {
       "name": "svg.card-curbstone-dark.svg.size",
       "ok": true,
-      "detail": "5182 bytes",
+      "detail": "5188 bytes",
       "severity": "hard"
     },
     {
@@ -228,7 +232,7 @@
     {
       "name": "svg.card-bari-link-dark.svg.size",
       "ok": true,
-      "detail": "4935 bytes",
+      "detail": "4941 bytes",
       "severity": "hard"
     },
     {
@@ -252,7 +256,7 @@
     {
       "name": "svg.card-dghs-cleanpulse-dark.svg.size",
       "ok": true,
-      "detail": "6783 bytes",
+      "detail": "6785 bytes",
       "severity": "hard"
     },
     {
@@ -276,7 +280,7 @@
     {
       "name": "svg.card-protomacro-dark.svg.size",
       "ok": true,
-      "detail": "4597 bytes",
+      "detail": "4603 bytes",
       "severity": "hard"
     },
     {
@@ -324,7 +328,7 @@
     {
       "name": "svg.gauge-light.svg.size",
       "ok": true,
-      "detail": "10309 bytes",
+      "detail": "10178 bytes",
       "severity": "hard"
     },
     {
@@ -348,7 +352,7 @@
     {
       "name": "svg.card-curbstone-light.svg.size",
       "ok": true,
-      "detail": "5182 bytes",
+      "detail": "5188 bytes",
       "severity": "hard"
     },
     {
@@ -372,7 +376,7 @@
     {
       "name": "svg.card-bari-link-light.svg.size",
       "ok": true,
-      "detail": "4935 bytes",
+      "detail": "4941 bytes",
       "severity": "hard"
     },
     {
@@ -396,7 +400,7 @@
     {
       "name": "svg.card-dghs-cleanpulse-light.svg.size",
       "ok": true,
-      "detail": "6783 bytes",
+      "detail": "6785 bytes",
       "severity": "hard"
     },
     {
@@ -420,7 +424,7 @@
     {
       "name": "svg.card-protomacro-light.svg.size",
       "ok": true,
-      "detail": "4597 bytes",
+      "detail": "4603 bytes",
       "severity": "hard"
     },
     {
@@ -444,7 +448,7 @@
     {
       "name": "svg.manifest-dark.svg.size",
       "ok": true,
-      "detail": "2996 bytes",
+      "detail": "3026 bytes",
       "severity": "hard"
     },
     {
@@ -468,7 +472,7 @@
     {
       "name": "svg.manifest-light.svg.size",
       "ok": true,
-      "detail": "2996 bytes",
+      "detail": "3026 bytes",
       "severity": "hard"
     },
     {
