@@ -1,9 +1,9 @@
 {
   "mode": "live",
-  "generated_at": "2026-11-20T00:00:38Z",
-  "run_date": "2026-11-20",
-  "run_number": "4",
-  "commit": "f0503a935d6ecc27e7e2aefa19dbf7078b2a58f7",
+  "generated_at": "2026-11-20T23:29:04Z",
+  "run_date": "2026-11-21",
+  "run_number": "5",
+  "commit": "9b026cc3d0b68463dd9c995f7bd54f171b7b08bd",
   "login": "TahmidShafi",
   "season": "hemonto",
   "extract": {
@@ -58,7 +58,7 @@
     {
       "name": "calendar.fresh",
       "ok": true,
-      "detail": "latest day lags run date by 0d",
+      "detail": "latest day lags run date by 1d",
       "severity": "hard"
     },
     {
@@ -184,7 +184,7 @@
     {
       "name": "svg.gauge-dark.svg.size",
       "ok": true,
-      "detail": "10178 bytes",
+      "detail": "10177 bytes",
       "severity": "hard"
     },
     {
@@ -328,7 +328,7 @@
     {
       "name": "svg.gauge-light.svg.size",
       "ok": true,
-      "detail": "10178 bytes",
+      "detail": "10177 bytes",
       "severity": "hard"
     },
     {
